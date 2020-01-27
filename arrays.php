@@ -175,8 +175,9 @@ Print the array from task 4 in html table:
 
 echo 
 
-"<table  border=1 >
-<tr> <td>".$food[0]."</td> <td>".$food_assoc_expanded ["Eggs"]["Type"]."</td><td>".$food_assoc_expanded ["Eggs"]["Origin"]."</td></tr>
+"<table  border=\"1px; solid; #f7f7f7;\" cellpadding=\"10\" cellspacing=\"0\">
+<tr><th>Food</th> <th>Type</th> <th>Origin</th></tr>
+<tr> <td >".$food[0]."</td> <td>".$food_assoc_expanded ["Eggs"]["Type"]."</td><td>".$food_assoc_expanded ["Eggs"]["Origin"]."</td></tr>
 <tr> <td>".$food[1]."</td> <td>".$food_assoc_expanded ["Bacon"]["Type"]."</td><td>".$food_assoc_expanded ["Bacon"]["Origin"]."</td></tr>
 <tr> <td>".$food[2]."</td> <td>".$food_assoc_expanded ["Breakfast Potatos"]["Type"]."</td><td>".$food_assoc_expanded ["Breakfast Potatos"]["Origin"]."</td></tr>
 <tr> <td>".$food[3]."</td> <td>".$food_assoc_expanded ["Sourdough Bread Toast"]["Type"]."</td><td>".$food_assoc_expanded ["Sourdough Bread Toast"]["Origin"]."</td></tr> 
